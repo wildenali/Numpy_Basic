@@ -1,2 +1,3 @@
 # Belajar-Numpy
-Numpy merupakan package atau library yang di gunakan untuk science computation, misalnya algebra, dll
+Numpy untuk pengolahan science computation, kaya matlab lah
+cuma pake bahasa python kalau si numpy
