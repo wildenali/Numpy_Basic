@@ -1,0 +1,34 @@
+import numpy as np
+
+# membuat vektor
+a = np.array([1,2,3,4,5])
+b = np.array([1.5, 2.5, 5, 6, 7])
+
+# Cara membuat vektor dengan range
+c = np.arange(1,10,2)   #1 sampai 10, dengan kenaikan 2
+
+# Cara membuat LINSPACE, adalah Liniear Space
+d = np.linspace(1,10,4) # rentang dari 1 sampai 10, dengan menampilkan 4 buah angka dengan jarak yg sama antara 4 buah angka tersebut
+
+# Cara membuat ARRAY MULTIDIMENSI / MATRIX
+e = np.array( [(1,2,3), (4,5,6)] )  #baris pertama (1,2,3), baris kedua (4,5,6)
+
+# Cara membuat MATRIX nilai nol
+f = np.zeros((5,5))
+
+# Cara membuat MATRIX nilai SATU
+g = np.ones((5,5))
+
+# Cara membuat MATRIX IDENTITAS adalah cari gugel dulu, sekalian belajar matrix lagi
+h = np.identity(5)
+i = np.eye(5) #dengan cara ini juga bisa
+# Tamplikan di terminal
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+print(e + 1) # testing matrix, karena skalar semuanya di tambah 1 akan mejadi berubah angkanya jadi +1 semuanya
+print(g)
+print(h)
+print(i)
