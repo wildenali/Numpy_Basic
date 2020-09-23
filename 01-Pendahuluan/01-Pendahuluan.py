@@ -1,27 +1,14 @@
-# Matplotlib itu adalah
-# cara membuat plot
 import numpy as np
-import matplotlib.pyplot as plt
 
-# Persamaan GARIS
-# y = 2x + 3
+a = np.array([1, 2, 3, 4, 5])
+b = [1, 2, 3, 4, 5]
 
-x = np.arange(0,11,1)
-y = 2*x + 3
-print(x)
-print(y)
-plt.figure(1)
-plt.plot(x,y)
+print(a)
+print(b)
 
+a = a + 1
+# b = b + 1 # ini akan error
+b = b + [1]
 
-
-# LINGKARAN
-jari2 = 5
-sudut = np.linspace(0,2*np.pi,100)
-x2 = jari2*np.cos(sudut)
-y2 = jari2*np.sin(sudut)
-plt.figure(2)
-plt.plot(x2,y2)
-
-# Menampilkan semua figure
-plt.show()
+print(a)
+print(b)
