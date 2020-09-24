@@ -4,9 +4,9 @@
 import numpy as np
 
 a = np.array((
-            [1,2,3],
-            [4,5,6]
-            ))
+    [1, 2, 3],
+    [4, 5, 6]
+))
 
 print('matrix a dengan ukuran:', a.shape)
 print(a)
@@ -27,13 +27,13 @@ print(np.ravel(a))  # Hasilnya menjadi [1 2 3 4 5 6]
 
 # RESHAPE -> Mengubah bentuk si matrixnya
 print('reShape matrix a:')
-print(a.reshape(3,2))
-print(a.reshape(6,1))
+print(a.reshape(3, 2))
+print(a.reshape(6, 1))
 
 
 # RESIZE -> Mengubah ukuran si matrixnya
 print('reSize matrix a:')
-a.resize(3,2)   # ini adalah cara Mengubah SIZE si matrix a
+a.resize(3, 2)   # ini adalah cara Mengubah SIZE si matrix a
 print(a)
 print('matrix a berubah ukuran menjadi:', a.shape)
 # liat a.shape di baris 11, dengan a.shape di baris 38, bentuknya menjadi berubah
