@@ -38,3 +38,39 @@ print(a)
 print('matrix a berubah ukuran menjadi:', a.shape)
 # liat a.shape di baris 11, dengan a.shape di baris 38, bentuknya menjadi berubah
 # karena fungsi RESIZE adalah mengubah ukurannya okeeey
+
+
+
+'''
+matrix a dengan ukuran: (2, 3)
+[[1 2 3]
+ [4 5 6]]
+traspose matrix dari a:
+[[1 4]
+ [2 5]
+ [3 6]]
+[[1 4]
+ [2 5]
+ [3 6]]
+[[1 4]
+ [2 5]
+ [3 6]]
+flatten matrix a:
+[1 2 3 4 5 6]
+[1 2 3 4 5 6]
+reShape matrix a:
+[[1 2]
+ [3 4]
+ [5 6]]
+[[1]
+ [2]
+ [3]
+ [4]
+ [5]
+ [6]]
+reSize matrix a:
+[[1 2]
+ [3 4]
+ [5 6]]
+matrix a berubah ukuran menjadi: (3, 2)
+'''
