@@ -26,3 +26,19 @@ print(c)
 d = a.dot(b)
 print("Cara ke DUA -> a X b adalah")
 print(d)
+
+
+'''
+a: 
+[[1 2]
+ [3 4]]
+b:
+[[1. 1.]
+ [1. 1.]]
+a X b adalah
+[[3. 3.]
+ [7. 7.]]
+Cara ke DUA -> a X b adalah
+[[3. 3.]
+ [7. 7.]]
+'''
