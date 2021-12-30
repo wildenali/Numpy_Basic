@@ -13,3 +13,8 @@ cuma pake bahasa python kalau si numpy
 
 1. Install `$ pip install matplotlib`
 2. Check with `$ pip list`
+
+
+## Running the Program on Windows
+1. `$ cd Env/Scripts`
+2. `$ activate.bat`
