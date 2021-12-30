@@ -77,3 +77,38 @@ print(np.sort(a, order='tinggi'))
 
 # Cara Sorting by nama
 print(np.sort(a, order='nama'))
+
+
+
+'''
+[[-6.  3. -2. -7.  1. -2.]]
+nilai terbesar dari a =  3.0
+posisi si nilai terbesar dari a =  1
+nilai TERKECIL dari a =  -7.0
+posisi si nilai TERKECIL dari a =  3
+mengurutkan nilai a:
+[[-7. -6. -2. -2.  1.  3.]]
+[[3 0 2 5 4 1]]
+
+
+
+==== DUA DIMENSI ====
+[[-12.  -6.]
+ [ 12.   8.]]
+nilai terbesar dari b =  12.0
+posisi si nilai terbesar dari b =  2
+nilai TERKECIL dari b =  -12.0
+posisi si nilai TERKECIL dari b =  0
+mengurutkan nilai b:
+[[-12.  -6.]
+ [  8.  12.]]
+[[0 1]
+ [1 0]]
+
+
+
+CONTOH DATA yg mau di SORTING
+[(b'Ucup', 170) (b'Otong', 150) (b'Mario', 160)]
+[(b'Otong', 150) (b'Mario', 160) (b'Ucup', 170)]
+[(b'Mario', 160) (b'Otong', 150) (b'Ucup', 170)]
+'''
